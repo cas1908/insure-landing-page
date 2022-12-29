@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 16px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <script src="https://kit.fontawesome.com/01b019755d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="logo" />
+    <nav>
+      <div class="menu" >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul>
+        <li>How we work</li>
+        <li>Blog</li>
+        <li>Account</li>
+        <li>View plans</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="landing-page">
+      <div class="content">
+        <img class="pattern-img" id="right-pattern-img" src="images/bg-pattern-intro-right-desktop.svg" alt="">
+        <section>
+          <div class="image-container">
+            <!-- <img src="images/image-intro-desktop.jpg" alt="image-intro-desktop"> -->
+          </div>
+          <div class="text">
+            <div class="line"></div>
+            <h1>Humanizing your insurance.</h1>
+            <p>Get your life insurance coverage easier and faster. We blend our expertise 
+              and technology to help you find the plan that’s right for you. Ensure you 
+              and your loved ones are protected.</p>
+              <button>View plans</button>
+          </div>
+          
+        </section>
+        <img class="pattern-img" id="left-pattern-img" src="images/bg-pattern-intro-left-desktop.svg" alt="pattern-layout">
+      </div>
+     
+    </div>
+    <div class="why-choose-us">
+      <div class="line"></div>
+      <h2>  We’re different</h2>
+      <div class="container">
+          <div class="text-box">
+            <img src="images/icon-snappy-process.svg" alt="box-icon">
+            <div class="text">
+              <h3>  Snappy Process</h3>
+              <p>  Our application process can be completed in minutes, not hours. Don’t get 
+                stuck filling in tedious forms.</p>
+            </div>
+         </div>
+        <div class="text-box">
+          <img src="images/icon-affordable-prices.svg" alt="box-icon">
+          <div class="text">
+            <h3>  Affordable Prices</h3>
+            <p>  We don’t want you worrying about high monthly costs. Our prices may be low, 
+              but we still offer the best coverage possible.</p>
+          </div>
+        </div>
+        <div class="text-box">
+            <img src="images/icon-people-first.svg" alt="box-icon">
+            <div class="text">
+              <h3>  People First</h3>
+              <p>  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+                sure you’re covered when you need it.</p>
+            </div>
+        </div>
+      </div>
+     
+      <div class="find-out-more">
+        <h3>  Find out more about how we work</h3>
+        <button>  How we work</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="connect">
+      <img src="images/logo.svg" alt="logo" class="logo" />
+      <div class="socials">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+    <!-- <hr/> -->
+    <div class="inquire">
+      <div>
+        <h6> Our company</h6>
+        <ul>
+          <li>How we work</li>
+          <li> Why Insure?</li>
+          <li> View plans</li>
+          <li> Reviews</li>
+        </ul>
+      </div>
+      <div>
+        <h6>  Help me</h6>
+        <ul>
+          <li>FAQ</li>
+          <li> Terms of use</li>
+          <li>  Privacy policy</li>
+          <li> Cookies</li>
+        </ul>
+      </div>
+      <div>
+        <h6> Contact</h6>
+        <ul>
+          <li>Sales</li>
+          <li>Support</li>
+          <li>Live chat</li>
+        </ul>
+      </div>
+      <div>
+        <h6>Others</h6>
+        <ul>
+          <li>Careers</li>
+          <li>Press</li>
+          <li>Licenses</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">CAS</a>.
+  </div>
+</body>
+<script>
+  const nav =document.querySelector('nav')
+    const menu = document.querySelector('.menu')
+    menu.addEventListener('click', ()=> {
+      menu.classList.toggle('active')
+      nav.classList.toggle('active')
+  })
+
+</script>
+</html>

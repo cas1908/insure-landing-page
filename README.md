@@ -1,6 +1,6 @@
-# Frontend Mentor - Loopstudios landing page solution
+# Frontend Mentor - Insure landing page solution
 
-This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Insure landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8). Frontend Mentor challenges help you improve your coding skills by building realistic projects.  
 
 ## Table of contents
 
@@ -13,8 +13,6 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
   - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -26,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Web preview for loopstudion landing page](./design/loopstudio.jpg)
+![Web preview for insure landing page](./design/insure.jpg)
 
 ### Links
 
-- Solution URL: [Github](https://github.com/cas1908/loopstudio-landing-page)
-- Live Site URL: [Loopstudio](https://loopstudiosolution.netlify.app/)
+- Solution URL: [Github](https://github.com/cas1908/insure-landing-page)
+- Live Site URL: [Insure](https://insuresolution.netlify.app/)
 
 ## My process
 
